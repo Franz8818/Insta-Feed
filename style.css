@@ -1,0 +1,22 @@
+body {
+    background-color: black;
+}
+
+.feed{
+    background-color: rgba(238, 244, 240, 0.591);
+    }
+
+.header {
+background-color: white;
+/* display: flex; */
+/* justify-content: center; */
+
+}
+
+.post {
+    background-color: white;
+    width: 280px;
+    height: 230px;
+    margin: auto;
+    /* display: flex; */
+}
