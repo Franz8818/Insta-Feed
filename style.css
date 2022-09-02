@@ -2,21 +2,50 @@ body {
     background-color: black;
 }
 
-.feed{
-    background-color: rgba(238, 244, 240, 0.591);
-    }
+.feed {
+    background-color: rgba(221, 226, 223, 0.87);
+    height: 2170px;
+
+}
 
 .header {
-background-color: white;
-/* display: flex; */
-/* justify-content: center; */
+    background-color: white;
+    text-align: center;
+    font-size: medium;
+    margin: -20px 0px 0px 0px;
 
 }
 
 .post {
     background-color: white;
-    width: 280px;
-    height: 230px;
+    width: 400px;
+    height: 430px;
     margin: auto;
-    /* display: flex; */
+    margin-top: 40px;
+}
+
+.title {
+    display: flex;
+}
+
+.izq {
+    margin: -10px 90px -30px 10px;
+    flex: auto;
+}
+
+.der {
+    margin: -10px 10px 10px 10px;
+    color: darkgrey
+}
+
+
+.image {
+    width: 400px;
+    height: 330px;
+    margin: -20px 0px 0px 0px;
+}
+
+.descrip {
+    margin: 8px 3px 20px 20px;
+    font-size: small;
 }
